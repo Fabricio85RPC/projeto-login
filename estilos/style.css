@@ -43,22 +43,27 @@ main{
     display: block;
     background: #5f2c82 url(../imagens/imagem-projeto-login.jpg) no-repeat right center;
     background-size: cover;
-    height: 200px;
-    
+    height: 200px; 
 }
 
 #formulario{
-    
+    margin: 1px;
     padding: 10px;
 }
 
-h1{text-align: center;}
-
-#caixa1{background-color: #5f2c82;
-        border: solid 1px #55008e;
-        border-radius: 5px;
-        padding: 1px 1px 4px 8px;
+#formulario > h1{
+    text-align: center;
+    margin: 1px;
 }
+form{
+    padding: 10px;
+}
+
+div{
+    margin-bottom: 10px;
+}
+
+
 
 
 
