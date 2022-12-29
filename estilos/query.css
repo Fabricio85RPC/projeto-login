@@ -23,9 +23,20 @@
     #formulario > p{
         font-size: 1.3em;
     }
+    input[type=submit]{
+        width: 54%;
+        height: 45px;
+        font-size: 18px;
 
-} 
+    } 
+    input[type=submit]:hover{
 
+        background-color: #30aeaca1;
+        width: 56%;
+        font-size: 20px;
+    }
+
+}
 @media screen and (min-width:992px) {
     body{background-image: linear-gradient(to top, #22afad,#5f2c82);
     }    
@@ -44,6 +55,19 @@
     }
     #formulario > p{
         font-size: 1.5em;
+    }
+    input[type=submit]{
+        width: 56%;
+        height: 45px;
+        font-size: 19px;
+
+    } 
+    input[type=submit]:hover{
+
+        background-color: 
+        #30aeaca1;  
+        width: 58%;
+        font-size: 21px;
     }
 
     
