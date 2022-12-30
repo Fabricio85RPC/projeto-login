@@ -23,6 +23,17 @@
     #formulario > p{
         font-size: 1.3em;
     }
+
+    input[type=email]{
+        width: 230px;
+        height: 31px;
+    }
+
+    input[type=password]{
+        width: 230px;
+        height: 31px;
+    }
+
     input[type=submit]{
         width: 54%;
         height: 45px;
@@ -56,9 +67,18 @@
     #formulario > p{
         font-size: 1.5em;
     }
+    input[type=email]{
+        width: 300px;
+        height: 31px;
+    }
+    input[type=password]{
+        width: 250px;
+        height: 31px;
+    }
     input[type=submit]{
         width: 56%;
         height: 45px;
+        margin-top: 20px;
         font-size: 19px;
 
     } 
