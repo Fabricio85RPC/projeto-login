@@ -24,6 +24,22 @@
         font-size: 1.3em;
     }
 
+    .campo{
+        background-color: rgba(65, 30, 180, 0.896);
+        height: 120px;
+        width: 450px;
+        border: solid 1px rgb(255, 255, 255);
+        border-radius: 15px;
+        padding: 10px;
+    } 
+
+    #imail{
+        margin-top: 10px;
+    }
+    #isenha{
+        margin-top: 10px;
+    }
+
     input[type=email]{
         width: 230px;
         height: 31px;
@@ -63,13 +79,33 @@
     #formulario{
         float: right;
         width: 67%;
+        
     }
     #formulario > p{
         font-size: 1.5em;
     }
+
+    .campo{
+        background-color: rgba(65, 30, 180, 0.896);
+        height: 120px;
+        width: 615px;
+        border: solid 1px rgb(255, 255, 255);
+        border-radius: 15px;
+        padding: 10px;
+    } 
+
+    #imail{
+        margin-top: 10px;
+    }
+    #isenha{
+        margin-top: 10px;
+    }
+  
+
     input[type=email]{
         width: 300px;
         height: 31px;
+        padding-top: 1px;
     }
     input[type=password]{
         width: 250px;
@@ -82,7 +118,7 @@
         font-size: 19px;
 
     } 
-    input[type=submit]:hover{
+        input[type=submit]:hover{
 
         background-color: 
         #30aeaca1;  
